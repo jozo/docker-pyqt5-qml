@@ -1,7 +1,7 @@
 # docker-pyqt5-qml
 Dockerfile for development GUI application with Python 3 + PyQt5 + QML
 
-Tested on Ubuntu 16.04
+Tested on Ubuntu 16.04, 16.10
 
 https://github.com/fadawar/docker-pyqt5-qml
 
@@ -16,9 +16,13 @@ docker run -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd)/test:/app \
     -e DISPLAY=$DISPLAY \
-    -u myusername \
+    -u qtuser \
     fadawar/docker-pyqt5-qml python3 /app/hello.py
 ```
+
+You should see window similar to this:
+
+![Screenshot](example-screenshot.png)
 
 **Build**
 ```
