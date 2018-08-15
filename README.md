@@ -14,6 +14,7 @@ You can clone github repository and then run this command to check if it's worki
 ```
 docker run -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v ~/.Xauthority:/home/qtuser/.Xauthority \
     -v $(pwd)/test:/app \
     -e DISPLAY=$DISPLAY \
     -u qtuser \
