@@ -7,7 +7,7 @@ https://github.com/jozo/docker-pyqt5-qml
 
 https://hub.docker.com/r/fadawar/docker-pyqt5-qml/
 
-## How to use
+## How to use it
 You can **clone** this github repository and then run this command to check if it's working
 
 **Run**
