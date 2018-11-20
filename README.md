@@ -1,14 +1,14 @@
 # docker-pyqt5-qml
-Dockerfile for development GUI application with Python 3 + PyQt5 + QML
+Dockerfile for development of GUI applications with Python 3 + PyQt5 + QML
 
-Tested on Ubuntu 16.04, 16.10
+Tested on Ubuntu 16.04, 16.10, 18.10
 
-https://github.com/fadawar/docker-pyqt5-qml
+https://github.com/jozo/docker-pyqt5-qml
 
 https://hub.docker.com/r/fadawar/docker-pyqt5-qml/
 
 ## How to use
-You can clone github repository and then run this command to check if it's working
+You can **clone** this github repository and then run this command to check if it's working
 
 **Run**
 ```
@@ -31,10 +31,10 @@ docker build -t fadawar/pyqt5-qml .
 
 ## Other Dockerfiles
 **Python 3 + PyQt5:**
-https://github.com/fadawar/docker-pyqt5
+https://github.com/jozo/docker-pyqt5
  
 **Python 3 + PyQt5 + QML:**
-https://github.com/fadawar/docker-pyqt5-qml
+https://github.com/jozo/docker-pyqt5-qml
 
 **Python 3 + PyQt5 + QML + QtMultimedia:**
-https://github.com/fadawar/docker-pyqt5-qml-qtmultimedia
+https://github.com/jozo/docker-pyqt5-qml-qtmultimedia
