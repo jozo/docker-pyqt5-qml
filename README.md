@@ -1,3 +1,7 @@
+# MOVED HERE: https://github.com/jozo/docker-pyqt5
+
+-- OLD README --
+
 # docker-pyqt5-qml
 Dockerfile for development of GUI applications with Python 3 + PyQt5 + QML
 
