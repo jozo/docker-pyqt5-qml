@@ -1,6 +1,6 @@
-FROM fadawar/docker-pyqt5
+FROM jozo/pyqt5
 
-MAINTAINER fadawar <fadawar@gmail.com>
+MAINTAINER jozo <fadawar@gmail.com>
 
 # Install additional PyQt5 packages
 RUN apt-get update \
