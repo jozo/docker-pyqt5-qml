@@ -18,6 +18,7 @@ You can **clone** this github repository and then run this command to check if i
 ```
 docker run -it \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
+    -v ~/.Xauthority:/home/qtuser/.Xauthority \
     -v $(pwd)/test:/app \
     -e DISPLAY=$DISPLAY \
     -u qtuser \
